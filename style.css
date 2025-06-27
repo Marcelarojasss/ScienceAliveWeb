@@ -15,13 +15,13 @@ body {
   padding: 40px;
 }
 
- h1 {
-      text-align: center;
-      color: #fa5c9e;
-      margin-bottom: 30px;
-      font-family: "Libertinus Math", sans-serif;
-      font-size: xx-large;
-    }
+h1 {
+    text-align: center;
+    color: #fa5c9e;
+    margin-bottom: 30px;
+    font-family: "Libertinus Math", sans-serif;
+    font-size: xx-large;
+  }
 
 /* Top Nav */
 header {
