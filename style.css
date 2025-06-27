@@ -8,7 +8,14 @@
 body {
   background-color: #fefefe;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
 }
+
+ h1 {
+      text-align: center;
+      color: #bb217b;
+      margin-bottom: 30px;
+    }
 
 /* Top Nav */
 header {
@@ -80,4 +87,71 @@ main {
 .info p {
   margin: 5px 0;
   color: #444;
+}
+
+/* collage */
+ .section-title {
+  max-width: 600px;
+  margin: 50px auto 15px;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  border-left: 6px solid #bb217b;
+  padding-left: 12px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.photo-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* fun facts */
+
+ .fun-facts {
+  max-width: 900px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.fun-facts h2 {
+  color: #bb217b;
+  margin-bottom: 20px;
+}
+
+.fun-facts ul {
+  list-style: square;
+  padding-left: 20px;
+  color: #444;
+}
+
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #bb217b;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  color: #d34399;
 }
