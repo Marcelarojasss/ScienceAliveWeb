@@ -1,8 +1,8 @@
-/* import fonts from google fonts - do not touch */
+/* import fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libertinus+Math&family=Modak&display=swap');
 
 
-/* Reset default styles - do not touch */
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
@@ -10,33 +10,28 @@
 }
 
 body {
+  background-color: #fefefe;
   font-family: 'Jost', sans-serif;
   padding: 40px;
-
-   /* add your background color here */
-
 }
 
  h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-family: "Libertinus Math", sans-serif;
-    font-size: 50px;
-
-    /* add your font color here */
-}
+      text-align: center;
+      color: #fa5c9e;
+      margin-bottom: 30px;
+      font-family: "Libertinus Math", sans-serif;
+      font-size: 50px;
+    }
 
 /* Top Nav */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fa5c9e;
+  color: white;
   padding: 15px 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-
-  /* add your background color and font color here */
-
-
 }
 
 header .logo {
@@ -47,22 +42,18 @@ header .logo {
 }
 
 nav a {
+  color: white;
   text-decoration: none;
   margin-left: 20px;
   font-weight: 500;
   transition: color 0.2s;
-
-  /* add your font color here */
-
 }
 
 nav a:hover {
-    text-decoration: underline;
-    /* add hover color here */
-
+  color: #ffd6ec;
 }
 
-/* Main content - do not touch*/
+/* Main content */
 main {
   display: flex;
   justify-content: center;
@@ -73,15 +64,13 @@ main {
 
 /* ID Card Styling */
 .id-card {
+  background-color: white;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   width: 800px;
   padding: 120px;
   text-align: center;
   transition: transform 0.3s;
-
-  /* add your background color here */
-
 }
 
 .id-card:hover {
@@ -93,23 +82,18 @@ main {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  border: 4px solid #fa5c9e;
   margin-bottom: 15px;
-
-  /* add your border style here */
-
 }
 
 .info h1 {
   margin: 0;
-  /* add your font color here */
-
+  color: #fa5c9e;
 }
 
 .info p {
   margin: 5px 0;
-
-  /* add your font color here */
-
+  color: #444;
 }
 
 /* collage */
@@ -121,8 +105,6 @@ main {
   font-weight: bold;
   border-left: 6px solid #fa5c9e;
   padding-left: 12px;
-
-  /* add your font color and border here */
 }
 
 .photo-grid {
@@ -150,20 +132,16 @@ main {
  .fun-facts {
   max-width: 900px;
   margin: 80px auto;
+  background: #fcebf2;
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-
-  /* add background color here */
-
 }
 
 .fun-facts ul {
   list-style: square;
   padding-left: 20px;
-
-  /* add font color herer */
-
+  color: #444;
 }
 
 .back-link {
@@ -171,13 +149,10 @@ main {
   text-align: center;
   margin-top: 30px;
   text-decoration: none;
+  color: #fa5c9e;
   font-weight: bold;
-
-  /* add font color here */
 }
 
 .back-link:hover {
-  text-decoration: underline;
-
-  /* add hover color here */
+  color: #fa8ac2;
 }
