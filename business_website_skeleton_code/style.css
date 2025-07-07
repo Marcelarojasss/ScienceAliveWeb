@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  /* change font and font color here! */
+
 }
 
 .container {
@@ -17,9 +17,10 @@ body {
 }
 
 header {
-  background: #222;
-  color: #fff;
   padding: 20px 0;
+
+  /* change the background color and font color here! */
+
 }
 
 .logo {
@@ -37,15 +38,19 @@ nav {
 }
 
 .nav-links a {
-  color: #fff;
   text-decoration: none;
   font-weight: bold;
+
+  /* change font color here! */
+
 }
 
 .main-section {
-  background: #f4f4f4;
   padding: 100px 0;
   text-align: center;
+
+  /* change background color here! */
+
 }
 
 .product {
@@ -53,9 +58,11 @@ nav {
 }
 
 footer {
-  background: #222;
-  color: #fff;
   text-align: center;
   padding: 20px 0;
   margin-top: 40px;
+
+  /* change background and font color here! */
+
+
 }
