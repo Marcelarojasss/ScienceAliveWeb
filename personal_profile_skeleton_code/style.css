@@ -175,10 +175,12 @@ main {
   font-weight: bold;
 
   /* add font color here */
+  
 }
 
 .back-link:hover {
   text-decoration: underline;
 
   /* add hover color here */
+
 }
