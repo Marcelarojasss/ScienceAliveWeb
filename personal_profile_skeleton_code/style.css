@@ -117,12 +117,13 @@ main {
   max-width: 600px;
   margin: 50px auto 15px;
   font-size: 20px;
-  color: #333;
   font-weight: bold;
-  border-left: 6px solid #fa5c9e;
   padding-left: 12px;
 
-  /* add your font color and border here */
+  /* change the border color here */
+  border-left: 6px solid #fa5c9e;
+  
+  /* add your font color */
 }
 
 .photo-grid {
