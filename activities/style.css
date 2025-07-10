@@ -1,0 +1,50 @@
+/* ⚠️ do not touch */
+* {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    /* ⚠️ do not touch */
+    margin: 50px;
+    padding: 50px;
+    
+    /* add your css here! */
+   
+}
+
+h2 {
+     /* ⚠️ do not touch */
+    margin: 50px;
+    padding: 50px;
+
+    /* add your css here! */
+    
+}
+
+p {
+     /* ⚠️ do not touch */
+    margin: 50px;
+    padding: 50px;
+    
+    /* add your css here! */
+}
+
+div {
+    /* ⚠️ do not touch */
+    margin: 50px;
+    padding: 50px;
+    
+    /* add your css here! */
+}
+
+img {
+    /* ⚠️ do not touch */
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px;
+    
+    /* add your css here! */
+
+}
