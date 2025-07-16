@@ -1,0 +1,113 @@
+/* import fonts from google fonts - do not touch */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libertinus+Math&family=Modak&display=swap');
+
+
+/* Reset default styles - do not touch */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  padding: 40px;
+
+   /* add your background color here */
+
+}
+
+ h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Libertinus Math", sans-serif;
+    font-size: 50px;
+
+    /* add your font color here */
+}
+
+/* Top Nav */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  /* add your background color and font color here */
+
+
+}
+
+/* Main content - do not touch*/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px); /* minus header height */
+  padding: 20px;
+}
+
+/* Form Style Here!!*/
+form input {
+  padding: 1.5% 3%;
+  border: none;
+  border-radius: 999px;
+  background-color: hsl(183, 71%, 89%);
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+form input:focus {
+  background-color: #dce0fa;
+  outline: none; 
+}
+
+button {
+  padding: 15px;
+  border-radius: 999px;
+  border: none;
+  background-color: #e7eff3;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+/* form */
+ .form {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  /* add background color here */
+
+}
+
+.fun-facts ul {
+  list-style: square;
+  padding-left: 20px;
+
+  /* add font color herer */
+
+}
+
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: none;
+  font-weight: bold;
+
+  /* add font color here */
+  
+}
+
+.back-link:hover {
+  text-decoration: underline;
+
+  /* add hover color here */
+
+}
