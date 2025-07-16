@@ -71,6 +71,32 @@ main {
   padding: 20px;
 }
 
+/* Form Style Here!!*/
+form input {
+  padding: 1.5% 3%;
+  border: none;
+  border-radius: 999px;
+  background-color: hsl(183, 71%, 89%);
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+form input:focus {
+  background-color: #dce0fa;
+  outline: none; 
+}
+
+button {
+  padding: 15px;
+  border-radius: 999px;
+  border: none;
+  background-color: #e7eff3;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
 /* ID Card Styling */
 .id-card {
   border-radius: 20px;
