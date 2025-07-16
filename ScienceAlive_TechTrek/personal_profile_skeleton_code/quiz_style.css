@@ -26,19 +26,6 @@ body {
     /* add your font color here */
 }
 
-/* Top Nav */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-
-  /* add your background color and font color here */
-
-
-}
-
 /* Main content - do not touch*/
 main {
   display: flex;
@@ -86,12 +73,15 @@ button:hover {
 
 }
 
-.fun-facts ul {
-  list-style: square;
-  padding-left: 20px;
-
-  /* add font color herer */
-
+/* results box */
+#results {
+  margin: 20px;
+  background-color: aquamarine;
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .back-link {

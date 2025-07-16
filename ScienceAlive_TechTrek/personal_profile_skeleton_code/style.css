@@ -62,6 +62,8 @@ nav a:hover {
 
 }
 
+
+
 /* Main content - do not touch*/
 main {
   display: flex;
@@ -69,6 +71,12 @@ main {
   align-items: center;
   height: calc(100vh - 70px); /* minus header height */
   padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px; /* Optional spacing between the divs */
+    align-items: flex-start; /* Align to top */
 }
 
 /* Form Style Here!!*/
