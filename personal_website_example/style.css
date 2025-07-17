@@ -76,6 +76,17 @@ form input:focus {
   outline: none; 
 }
 
+/* results box */
+#results {
+  margin: 20px;
+  background-color: rgb(238, 201, 242);
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
 
 /* ID Card Styling */
 .id-card {

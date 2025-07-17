@@ -9,6 +9,30 @@
   box-sizing: border-box;
 }
 
+/* form */
+ .form {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  /* add background color here */
+
+}
+
+/* results box */
+#results {
+  margin: 20px;
+  background-color: aquamarine;
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
 body {
   font-family: 'Jost', sans-serif;
   padding: 40px;
@@ -61,28 +85,6 @@ button:hover {
   background-color: aqua;
 }
 
-/* form */
- .form {
-  max-width: 900px;
-  margin: 80px auto;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-
-  /* add background color here */
-
-}
-
-/* results box */
-#results {
-  margin: 20px;
-  background-color: aquamarine;
-  max-width: 900px;
-  margin: 80px auto;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
 
 .back-link {
   display: block;
