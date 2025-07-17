@@ -74,6 +74,8 @@ form input:focus {
   outline: none; 
 }
 
+/* change button colors here! */
+
 button {
   padding: 15px;
   border-radius: 999px;

@@ -62,6 +62,20 @@ main {
   padding: 20px;
 }
 
+
+.form {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background-color: #f9f0f4;
+
+  /* add background color here */
+
+}
+
+
 form input {
   padding: 1.5% 3%;
   border: none;
@@ -79,7 +93,7 @@ form input:focus {
 /* results box */
 #results {
   margin: 20px;
-  background-color: rgb(238, 201, 242);
+  background-color:#fcebf2;
   max-width: 900px;
   margin: 80px auto;
   padding: 30px;
@@ -87,6 +101,17 @@ form input:focus {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
+button {
+  padding: 15px;
+  border-radius: 999px;
+  border: none;
+  background-color: #fa5c9e;
+  font-family: "Jost";
+}
+
+button:hover {
+  background-color: rgb(255, 0, 157);
+}
 
 /* ID Card Styling */
 .id-card {
